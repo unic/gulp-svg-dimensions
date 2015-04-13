@@ -8,8 +8,8 @@ var gulp = require('gulp'),
 describe('gulp-unic-handlebars', function() {
 	it('should add dimensions to file object', function(done) {
 		var expected = {
-				x: 92,
-				y: 122
+				x: 269,
+				y: 272
 			},
 			dimensions;
 
