@@ -15,7 +15,7 @@ Then, add it to your `gulpfile.js`:
 ```javascript
 var svgDimensions = require('gulp-svg-dimensions');
 
-gulp.task('html', function(){
+gulp.task('icons', function(){
   gulp.src(['app/icons/*.svg'])
     .pipe(svgDimensions())
     // Some other plugin making use of file.data.dimensions
